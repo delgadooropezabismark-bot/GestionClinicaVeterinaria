@@ -1,0 +1,26 @@
+@startuml
+
+class Propietario {
+    Id
+    Nombre
+    Telefono
+}
+
+class Mascota {
+    Id
+    Nombre
+    Especie
+    PropietarioId
+}
+
+class Cita {
+    Id
+    Fecha
+    Estado
+    MascotaId
+}
+
+Propietario "1" -- "N" Mascota
+Mascota "1" -- "N" Cita
+
+@enduml
