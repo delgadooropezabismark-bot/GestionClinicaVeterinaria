@@ -1,31 +1,16 @@
-# Diagrama de Casos de Uso
+## Diagrama de Casos de Uso
 
 ```mermaid
 flowchart LR
-    Recepcionista --> RegistrarPropietario
-    Recepcionista --> RegistrarMascota
-    Recepcionista --> AgendarCita
-    Recepcionista --> ModificarMascota
-    Recepcionista --> CancelarCita
 
-    Administrador --> VerCitas
-    Administrador --> EliminarRegistros
+Recepcionista --> RegistrarPropietario
+Recepcionista --> RegistrarMascota
+Recepcionista --> AgendarCita
+Recepcionista --> ModificarMascota
+Recepcionista --> CancelarCita
 
-    RegistrarMascota --> Propietario
-    AgendarCita --> Mascota
+Administrador --> VerCitas
+Administrador --> EliminarRegistros
+```
 
-Este diagrama representa:
-
-**Actores**
-- Recepcionista
-- Administrador
-
-**Casos de uso**
-- Registrar propietario
-- Registrar mascota
-- Agendar cita
-- Modificar mascota
-- Cancelar cita
-- Ver citas
-- Eliminar registros
-
+Este diagrama representa las principales acciones que pueden realizar los usuarios del sistema de la clínica veterinaria.
