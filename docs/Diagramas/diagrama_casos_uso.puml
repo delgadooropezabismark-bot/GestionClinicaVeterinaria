@@ -1,0 +1,15 @@
+@startuml
+
+actor Recepcionista
+actor Administrador
+
+Recepcionista --> (Registrar propietario)
+Recepcionista --> (Registrar mascota)
+Recepcionista --> (Agendar cita)
+Recepcionista --> (Modificar mascota)
+Recepcionista --> (Cancelar cita)
+
+Administrador --> (Ver citas)
+Administrador --> (Eliminar registros)
+
+@enduml
