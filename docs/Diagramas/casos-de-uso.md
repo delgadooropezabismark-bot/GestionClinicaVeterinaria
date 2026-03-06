@@ -29,8 +29,3 @@ Este diagrama representa:
 - Ver citas
 - Eliminar registros
 
----
-
-# 2️⃣ Diagrama de Clases
-
-Ahora crea:
