@@ -144,9 +144,9 @@ El desarrollo del proyecto permitió fortalecer competencias en análisis de req
 
 #  Integrantes
 
-- Nombre del Integrante 1
-- Nombre del Integrante 2
-- Nombre del Integrante 3
+- Adrian Garcia 
+- Bismark Delgado O 
+- Mauricio rossel
 
 ---
 
